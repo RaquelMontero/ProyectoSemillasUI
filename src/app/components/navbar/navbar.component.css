@@ -1,0 +1,90 @@
+
+.ui.segment{
+  border: none;
+  height: 0;
+}
+
+
+a{
+    letter-spacing: 0.1em;
+}
+
+.navbar-brand img{
+  max-height: 55px;
+  max-width: 200px;
+  padding: 0;
+}
+
+.ui.top.fixed.demo.menu:not(.tabular){
+  background-color: #00A846;
+  border: none;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.nav1{
+    background-color: #343A40;
+    max-height: 20px;
+    height: 20px;
+    border: none;
+}
+
+.nav1 .ui.top.fixed.menu:not(.tabular){
+  background-color: #343A40;
+  border: none;
+  height: 20px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+
+.nav1 .ui.menu .item:before{
+  background-color: #343A40;
+  height: 10px;
+}
+.ui.menu .item:before{
+  background-color: #00A846;
+}
+
+.ui.menu .item{
+    color: white;
+    border: none;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+
+}
+
+.ui.sidebar.menu .item{
+ color: #343A40;
+}
+
+.ui.sidebar.menu .item i{
+  float:left;
+  margin-right: 5px;
+}
+
+.fas.fa-pen-square{
+  margin-left: 8px;
+}
+.fas.fa-user-shield{
+    margin-left: 8px;
+
+}
+.ui.sidebar.menu .item i.dropdown{
+  float:right;
+  margin-left: 5px;
+}
+
+
+.ui.vertical.menu .item>.menu{
+  margin-left: 15px;
+}
+
+
+.fas.fa-bars{
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: #00A846;
+}

@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ProyectoSemillasUI"
+  "defaultProject": "ProyectoSemillasUI",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,25 @@
+<div class="nav1">
+  <div class="ui top fixed menu">
+    <a class="right item" *ngIf=" loggedIn">{{userLogged.name}}</a>
+  </div>
+</div>
+
+<div class="nav2">
+  <div class="ui top fixed demo menu">
+    <a id="toggle" class="item" (click)="onPress()">
+      <i class="fas fa-bars fa-2x"></i>
+    </a>
+    <a class="navbar-brand" href="/">
+      <img class="img-fluid" alt="Semillas logo" src="../../../assets/nav_logo.png" /></a>
+    <div class="right menu">
+
+      <a class="item" aria-current="page" routerLink="/">QUIERO APORTAR</a>
+      <a class="item" routerLink="/soyvoluntario">SOY VOLUNTARIO</a>
+
+      <a class="item">
+        <img *ngIf=" loggedIn" src="{{userLogged.photoUrl}}" class="rounded-circle mr-3" style="width: 30px">
+      </a>
+    </div>
+
+  </div>
+</div>
